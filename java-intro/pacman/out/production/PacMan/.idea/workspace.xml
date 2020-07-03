@@ -6,12 +6,7 @@
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="07b223a0-f7e7-4006-a2dd-d71bb487ddc2" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Pacman.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Pacman.java" afterDir="false" />
-    </list>
+    <list default="true" id="07b223a0-f7e7-4006-a2dd-d71bb487ddc2" name="Default" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -19,6 +14,9 @@
   </component>
   <component name="CreatePatchCommitExecutor">
     <option name="PATCH_PATH" value="" />
+  </component>
+  <component name="FavoritesManager">
+    <favorites_list name="PacMan" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -319,26 +317,6 @@
       <screen x="0" y="0" width="1920" height="1160" />
     </state>
     <state x="440" y="154" key="#Project_Structure/0.0.1920.1160/-1920.0.1920.1040@0.0.1920.1160" timestamp="1593810109185" />
-    <state width="1877" height="186" key="GridCell.Tab.0.bottom" timestamp="1593810799220">
-      <screen x="0" y="0" width="1920" height="1160" />
-    </state>
-    <state width="1877" height="186" key="GridCell.Tab.0.bottom/0.0.1920.1160/-1920.0.1920.1040@0.0.1920.1160" timestamp="1593810799220" />
-    <state width="1877" height="186" key="GridCell.Tab.0.center" timestamp="1593810799220">
-      <screen x="0" y="0" width="1920" height="1160" />
-    </state>
-    <state width="1877" height="186" key="GridCell.Tab.0.center/0.0.1920.1160/-1920.0.1920.1040@0.0.1920.1160" timestamp="1593810799220" />
-    <state width="1877" height="186" key="GridCell.Tab.0.left" timestamp="1593810799219">
-      <screen x="0" y="0" width="1920" height="1160" />
-    </state>
-    <state width="1877" height="186" key="GridCell.Tab.0.left/0.0.1920.1160/-1920.0.1920.1040@0.0.1920.1160" timestamp="1593810799219" />
-    <state width="1877" height="186" key="GridCell.Tab.0.right" timestamp="1593810799220">
-      <screen x="0" y="0" width="1920" height="1160" />
-    </state>
-    <state width="1877" height="186" key="GridCell.Tab.0.right/0.0.1920.1160/-1920.0.1920.1040@0.0.1920.1160" timestamp="1593810799220" />
-    <state x="623" y="255" width="672" height="678" key="search.everywhere.popup" timestamp="1593810422809">
-      <screen x="0" y="0" width="1920" height="1160" />
-    </state>
-    <state x="623" y="255" width="672" height="678" key="search.everywhere.popup/0.0.1920.1160/-1920.0.1920.1040@0.0.1920.1160" timestamp="1593810422809" />
   </component>
   <component name="antWorkspaceConfiguration">
     <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
