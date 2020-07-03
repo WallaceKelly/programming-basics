@@ -113,7 +113,7 @@ public class Pacman implements KeyListener{
                                 return;
                             }
                         }
-                        pixelPosition.x = pixelPosition.x + 2;
+                        pixelPosition.x++;
                         break;
                     case LEFT:
                         if((pixelPosition.x <= 0)&&parentBoard.isCustom){
@@ -127,7 +127,7 @@ public class Pacman implements KeyListener{
                                 return;
                             }
                         }
-                        pixelPosition.x = pixelPosition.x - 2;
+                        pixelPosition.x--;
                         break;
                     case UP:
                         if((pixelPosition.y <= 0)&&parentBoard.isCustom){
@@ -141,7 +141,7 @@ public class Pacman implements KeyListener{
                                 return;
                             }
                         }
-                        pixelPosition.y = pixelPosition.y - 2;
+                        pixelPosition.y--;
                         break;
                     case DOWN:
                         if((pixelPosition.y >= (parentBoard.m_y-1) * 28)&&parentBoard.isCustom){
@@ -155,7 +155,7 @@ public class Pacman implements KeyListener{
                                 return;
                             }
                         }
-                        pixelPosition.y = pixelPosition.y + 2;
+                        pixelPosition.y ++;
                         break;
                 }
 
