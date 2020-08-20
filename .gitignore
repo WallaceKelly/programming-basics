@@ -1,3 +1,6 @@
 symbolcache.db
 obj/
 bin/
+.fake/
+.ionide/
+.vscode/
