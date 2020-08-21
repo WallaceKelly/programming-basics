@@ -13,7 +13,15 @@ End Class
 Public Class WeatherForecaster
 
     Private ReadOnly Summaries As String() = New String() {
-        "Freezing", "Bracing", "Chilly", "Cool", "Mild", "Warm", "Balmy", "Hot", "Sweltering", "Scorching"
+        "Cloudy",
+        "Chance of rain",
+        "Partly cloudy",
+        "Raining",
+        "Light rain",
+        "Thunderstorms",
+        "Sunny",
+        "Snow",
+        "Windy"
     }
 
     Private Function CreateForecast(i As Integer) As WeatherForecast

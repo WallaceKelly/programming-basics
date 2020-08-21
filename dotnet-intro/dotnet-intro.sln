@@ -7,6 +7,10 @@ Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "weather-library", "weather-
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "weather-service", "weather-service\weather-service.csproj", "{9E668EA6-B815-4400-9FBA-801C1DBEC804}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "weather-website", "weather-website", "{910F7969-B639-410C-A8D6-DF56ABA788C7}"
+EndProject
+Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "App", "weather-website\src\App.fsproj", "{87BFD646-816B-4A42-8025-EA45E2A67948}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -44,5 +48,20 @@ Global
 		{9E668EA6-B815-4400-9FBA-801C1DBEC804}.Release|x64.Build.0 = Release|Any CPU
 		{9E668EA6-B815-4400-9FBA-801C1DBEC804}.Release|x86.ActiveCfg = Release|Any CPU
 		{9E668EA6-B815-4400-9FBA-801C1DBEC804}.Release|x86.Build.0 = Release|Any CPU
+		{87BFD646-816B-4A42-8025-EA45E2A67948}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{87BFD646-816B-4A42-8025-EA45E2A67948}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{87BFD646-816B-4A42-8025-EA45E2A67948}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{87BFD646-816B-4A42-8025-EA45E2A67948}.Debug|x64.Build.0 = Debug|Any CPU
+		{87BFD646-816B-4A42-8025-EA45E2A67948}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{87BFD646-816B-4A42-8025-EA45E2A67948}.Debug|x86.Build.0 = Debug|Any CPU
+		{87BFD646-816B-4A42-8025-EA45E2A67948}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{87BFD646-816B-4A42-8025-EA45E2A67948}.Release|Any CPU.Build.0 = Release|Any CPU
+		{87BFD646-816B-4A42-8025-EA45E2A67948}.Release|x64.ActiveCfg = Release|Any CPU
+		{87BFD646-816B-4A42-8025-EA45E2A67948}.Release|x64.Build.0 = Release|Any CPU
+		{87BFD646-816B-4A42-8025-EA45E2A67948}.Release|x86.ActiveCfg = Release|Any CPU
+		{87BFD646-816B-4A42-8025-EA45E2A67948}.Release|x86.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{87BFD646-816B-4A42-8025-EA45E2A67948} = {910F7969-B639-410C-A8D6-DF56ABA788C7}
 	EndGlobalSection
 EndGlobal
