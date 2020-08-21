@@ -1,0 +1,264 @@
+{
+    "@context": [
+        "https://geojson.org/geojson-ld/geojson-context.jsonld",
+        {
+            "@version": "1.1",
+            "wx": "https://api.weather.gov/ontology#",
+            "geo": "http://www.opengis.net/ont/geosparql#",
+            "unit": "http://codes.wmo.int/common/unit/",
+            "@vocab": "https://api.weather.gov/ontology#"
+        }
+    ],
+    "type": "Feature",
+    "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+            [
+                [
+                    -77.036997299999996,
+                    38.900782700000001
+                ],
+                [
+                    -77.040754800000002,
+                    38.878836499999998
+                ],
+                [
+                    -77.012551900000005,
+                    38.875908599999995
+                ],
+                [
+                    -77.008788700000011,
+                    38.897854499999994
+                ],
+                [
+                    -77.036997299999996,
+                    38.900782700000001
+                ]
+            ]
+        ]
+    },
+    "properties": {
+        "updated": "2020-08-21T18:36:25+00:00",
+        "units": "us",
+        "forecastGenerator": "BaselineForecastGenerator",
+        "generatedAt": "2020-08-21T20:39:56+00:00",
+        "updateTime": "2020-08-21T18:36:25+00:00",
+        "validTimes": "2020-08-21T12:00:00+00:00/P7DT13H",
+        "elevation": {
+            "value": 6.0960000000000001,
+            "unitCode": "unit:m"
+        },
+        "periods": [
+            {
+                "number": 1,
+                "name": "This Afternoon",
+                "startTime": "2020-08-21T16:00:00-04:00",
+                "endTime": "2020-08-21T18:00:00-04:00",
+                "isDaytime": true,
+                "temperature": 86,
+                "temperatureUnit": "F",
+                "temperatureTrend": null,
+                "windSpeed": "7 mph",
+                "windDirection": "S",
+                "icon": "https://api.weather.gov/icons/land/day/rain_showers,20?size=medium",
+                "shortForecast": "Slight Chance Rain Showers",
+                "detailedForecast": "A slight chance of rain showers. Mostly cloudy, with a high near 86. South wind around 7 mph. Chance of precipitation is 20%."
+            },
+            {
+                "number": 2,
+                "name": "Tonight",
+                "startTime": "2020-08-21T18:00:00-04:00",
+                "endTime": "2020-08-22T06:00:00-04:00",
+                "isDaytime": false,
+                "temperature": 71,
+                "temperatureUnit": "F",
+                "temperatureTrend": null,
+                "windSpeed": "2 to 7 mph",
+                "windDirection": "S",
+                "icon": "https://api.weather.gov/icons/land/night/rain_showers,30/tsra,50?size=medium",
+                "shortForecast": "Chance Rain Showers",
+                "detailedForecast": "A chance of rain showers before 2am, then a chance of showers and thunderstorms. Mostly cloudy, with a low around 71. South wind 2 to 7 mph. Chance of precipitation is 50%. New rainfall amounts less than a tenth of an inch possible."
+            },
+            {
+                "number": 3,
+                "name": "Saturday",
+                "startTime": "2020-08-22T06:00:00-04:00",
+                "endTime": "2020-08-22T18:00:00-04:00",
+                "isDaytime": true,
+                "temperature": 86,
+                "temperatureUnit": "F",
+                "temperatureTrend": null,
+                "windSpeed": "2 to 6 mph",
+                "windDirection": "S",
+                "icon": "https://api.weather.gov/icons/land/day/tsra,50?size=medium",
+                "shortForecast": "Chance Showers And Thunderstorms",
+                "detailedForecast": "A chance of showers and thunderstorms. Mostly cloudy, with a high near 86. South wind 2 to 6 mph. Chance of precipitation is 50%. New rainfall amounts between a tenth and quarter of an inch possible."
+            },
+            {
+                "number": 4,
+                "name": "Saturday Night",
+                "startTime": "2020-08-22T18:00:00-04:00",
+                "endTime": "2020-08-23T06:00:00-04:00",
+                "isDaytime": false,
+                "temperature": 71,
+                "temperatureUnit": "F",
+                "temperatureTrend": null,
+                "windSpeed": "5 mph",
+                "windDirection": "S",
+                "icon": "https://api.weather.gov/icons/land/night/tsra_sct,50/tsra_sct,30?size=medium",
+                "shortForecast": "Chance Showers And Thunderstorms",
+                "detailedForecast": "A chance of showers and thunderstorms before 4am. Mostly cloudy, with a low around 71. South wind around 5 mph. Chance of precipitation is 50%. New rainfall amounts between a tenth and quarter of an inch possible."
+            },
+            {
+                "number": 5,
+                "name": "Sunday",
+                "startTime": "2020-08-23T06:00:00-04:00",
+                "endTime": "2020-08-23T18:00:00-04:00",
+                "isDaytime": true,
+                "temperature": 90,
+                "temperatureUnit": "F",
+                "temperatureTrend": null,
+                "windSpeed": "2 to 6 mph",
+                "windDirection": "SW",
+                "icon": "https://api.weather.gov/icons/land/day/bkn/tsra_hi,30?size=medium",
+                "shortForecast": "Partly Sunny then Chance Showers And Thunderstorms",
+                "detailedForecast": "A chance of showers and thunderstorms after noon. Partly sunny, with a high near 90. Southwest wind 2 to 6 mph. Chance of precipitation is 30%."
+            },
+            {
+                "number": 6,
+                "name": "Sunday Night",
+                "startTime": "2020-08-23T18:00:00-04:00",
+                "endTime": "2020-08-24T06:00:00-04:00",
+                "isDaytime": false,
+                "temperature": 71,
+                "temperatureUnit": "F",
+                "temperatureTrend": null,
+                "windSpeed": "5 mph",
+                "windDirection": "W",
+                "icon": "https://api.weather.gov/icons/land/night/tsra_hi,30/tsra_hi,20?size=medium",
+                "shortForecast": "Chance Showers And Thunderstorms",
+                "detailedForecast": "A chance of showers and thunderstorms before 2am. Partly cloudy, with a low around 71. Chance of precipitation is 30%."
+            },
+            {
+                "number": 7,
+                "name": "Monday",
+                "startTime": "2020-08-24T06:00:00-04:00",
+                "endTime": "2020-08-24T18:00:00-04:00",
+                "isDaytime": true,
+                "temperature": 91,
+                "temperatureUnit": "F",
+                "temperatureTrend": null,
+                "windSpeed": "5 mph",
+                "windDirection": "W",
+                "icon": "https://api.weather.gov/icons/land/day/sct?size=medium",
+                "shortForecast": "Mostly Sunny",
+                "detailedForecast": "Mostly sunny, with a high near 91."
+            },
+            {
+                "number": 8,
+                "name": "Monday Night",
+                "startTime": "2020-08-24T18:00:00-04:00",
+                "endTime": "2020-08-25T06:00:00-04:00",
+                "isDaytime": false,
+                "temperature": 71,
+                "temperatureUnit": "F",
+                "temperatureTrend": null,
+                "windSpeed": "1 to 5 mph",
+                "windDirection": "W",
+                "icon": "https://api.weather.gov/icons/land/night/sct?size=medium",
+                "shortForecast": "Partly Cloudy",
+                "detailedForecast": "Partly cloudy, with a low around 71."
+            },
+            {
+                "number": 9,
+                "name": "Tuesday",
+                "startTime": "2020-08-25T06:00:00-04:00",
+                "endTime": "2020-08-25T18:00:00-04:00",
+                "isDaytime": true,
+                "temperature": 91,
+                "temperatureUnit": "F",
+                "temperatureTrend": null,
+                "windSpeed": "2 to 7 mph",
+                "windDirection": "W",
+                "icon": "https://api.weather.gov/icons/land/day/few?size=medium",
+                "shortForecast": "Sunny",
+                "detailedForecast": "Sunny, with a high near 91."
+            },
+            {
+                "number": 10,
+                "name": "Tuesday Night",
+                "startTime": "2020-08-25T18:00:00-04:00",
+                "endTime": "2020-08-26T06:00:00-04:00",
+                "isDaytime": false,
+                "temperature": 71,
+                "temperatureUnit": "F",
+                "temperatureTrend": null,
+                "windSpeed": "2 to 6 mph",
+                "windDirection": "W",
+                "icon": "https://api.weather.gov/icons/land/night/few?size=medium",
+                "shortForecast": "Mostly Clear",
+                "detailedForecast": "Mostly clear, with a low around 71."
+            },
+            {
+                "number": 11,
+                "name": "Wednesday",
+                "startTime": "2020-08-26T06:00:00-04:00",
+                "endTime": "2020-08-26T18:00:00-04:00",
+                "isDaytime": true,
+                "temperature": 88,
+                "temperatureUnit": "F",
+                "temperatureTrend": null,
+                "windSpeed": "2 to 6 mph",
+                "windDirection": "NW",
+                "icon": "https://api.weather.gov/icons/land/day/few?size=medium",
+                "shortForecast": "Sunny",
+                "detailedForecast": "Sunny, with a high near 88."
+            },
+            {
+                "number": 12,
+                "name": "Wednesday Night",
+                "startTime": "2020-08-26T18:00:00-04:00",
+                "endTime": "2020-08-27T06:00:00-04:00",
+                "isDaytime": false,
+                "temperature": 69,
+                "temperatureUnit": "F",
+                "temperatureTrend": null,
+                "windSpeed": "5 mph",
+                "windDirection": "SW",
+                "icon": "https://api.weather.gov/icons/land/night/few?size=medium",
+                "shortForecast": "Mostly Clear",
+                "detailedForecast": "Mostly clear, with a low around 69."
+            },
+            {
+                "number": 13,
+                "name": "Thursday",
+                "startTime": "2020-08-27T06:00:00-04:00",
+                "endTime": "2020-08-27T18:00:00-04:00",
+                "isDaytime": true,
+                "temperature": 90,
+                "temperatureUnit": "F",
+                "temperatureTrend": null,
+                "windSpeed": "2 to 6 mph",
+                "windDirection": "SW",
+                "icon": "https://api.weather.gov/icons/land/day/sct?size=medium",
+                "shortForecast": "Mostly Sunny",
+                "detailedForecast": "Mostly sunny, with a high near 90."
+            },
+            {
+                "number": 14,
+                "name": "Thursday Night",
+                "startTime": "2020-08-27T18:00:00-04:00",
+                "endTime": "2020-08-28T06:00:00-04:00",
+                "isDaytime": false,
+                "temperature": 71,
+                "temperatureUnit": "F",
+                "temperatureTrend": null,
+                "windSpeed": "5 mph",
+                "windDirection": "SW",
+                "icon": "https://api.weather.gov/icons/land/night/sct?size=medium",
+                "shortForecast": "Partly Cloudy",
+                "detailedForecast": "Partly cloudy, with a low around 71."
+            }
+        ]
+    }
+}
