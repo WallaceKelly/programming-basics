@@ -1,0 +1,27 @@
+// Literal values (strings, numbers, Booleans, null)
+// Objects (collection of properties)
+// Properties (name and value)
+// Arrays (collection of objects)
+{
+    "city": "Round Hill",
+    "state": "VA",
+    "temperature": 71,
+    "forecasts": [
+        {
+            "day": "Monday",
+            "forecast": "Sunny"
+        },
+        {
+            "day": "Tuesday",
+            "forecast": "Rainy"
+        },
+        {
+            "day": "Wednesday",
+            "forecast": "Snowy"
+        },
+        {
+            "day": "Thursday",
+            "forecast": "Windy"
+        }
+    ]
+}
