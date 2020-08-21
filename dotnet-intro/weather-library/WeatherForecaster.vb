@@ -1,5 +1,5 @@
 Public Class WeatherForecast
-    Public Property Day As Date
+    Public Property Day As String
     Public Property Summary As String
     Public Property TemperatureC As Double
     Public ReadOnly Property TemperatureF As Double
@@ -19,7 +19,7 @@ Public Class WeatherForecaster
     Private Function CreateForecast(i As Integer) As WeatherForecast
         Dim rng = New Random()
         Return New WeatherForecast With {
-                    .Day = Date.Today.AddDays(i),
+                    .Day = Date.Today.AddDays(i).DayOfWeek.ToString(),
                     .TemperatureC = rng.Next(-20, 55),
                     .Summary = Summaries(rng.Next(Summaries.Length))
                 }
