@@ -1,0 +1,9 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <RootNamespace>WeatherLibrary</RootNamespace>
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <AssemblyName>WeatherLibrary</AssemblyName>
+  </PropertyGroup>
+
+</Project>
