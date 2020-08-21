@@ -3,6 +3,7 @@
 open FSharp.Data
 open System.IO
 
+// from https://api.weather.gov/gridpoints/LWX/96,70/forecast
 type WeatherForecast = JsonProvider< "sample.json" >
 
 let forecast = WeatherForecast.GetSample()
