@@ -19,7 +19,6 @@ namespace weather_service.Controllers
         [HttpGet]
         public IEnumerable<WeatherForecast> Get()
         {
-            System.Threading.Thread.Sleep(2000); // for dramatic effect during demo
             var forecaster = new WeatherForecaster();
             return forecaster.GetForecast();
         }

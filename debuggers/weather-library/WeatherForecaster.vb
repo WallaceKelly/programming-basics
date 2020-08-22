@@ -3,6 +3,7 @@ Class WeatherSim
     Public Shared Property MinTemp As Integer = 0
 End Class
 
+
 Public Class WeatherForecast
     Public Property Day As String
     Public Property Summary As String
