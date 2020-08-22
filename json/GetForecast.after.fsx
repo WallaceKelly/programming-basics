@@ -1,12 +1,12 @@
-// #r "./FSharp.Core.4.0.0.1/lib/portable-net45+netcore45/FSharp.Core.dll"
-#r "./FSharp.Data.3.3.3/lib/netstandard2.0/FSharp.Data.dll"
+#r "./FSharp.Data.3.3.3/lib/net45/FSharp.Data.dll"
 open FSharp.Data
 open System.IO
 
 // from https://api.weather.gov/gridpoints/LWX/96,70/forecast
 type WeatherForecast = JsonProvider< "sample.json" >
 
-let forecast = WeatherForecast.GetSample()
+// let forecast = WeatherForecast.GetSample()
+let forecast = WeatherForecast.Load("https://api.weather.gov/gridpoints/TOP/31,80/forecast");
 
 let sw = new StreamWriter("weather.htm")
 for p in forecast.Properties.Periods do
