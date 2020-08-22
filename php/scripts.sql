@@ -9,6 +9,6 @@ select * from Movies;
 insert into Movies (Movie) values ("Raiders of the Lost PHP");
 insert into Movies (Movie) values ("Return of the Script");
 insert into Movies (Movie) values ("PHP: The Extra-Terrestrial");
-
+insert into Movies (Movie) values ("The PhpFather");
 
 -- delete from Movies;
