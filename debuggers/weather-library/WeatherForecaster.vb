@@ -1,3 +1,8 @@
+Class WeatherSim
+    Public Shared ReadOnly Property MaxTemp As Integer = 100
+    Public Shared ReadOnly Property MinTemp As Integer = 0
+End Class
+
 Public Class WeatherForecast
     Public Property Day As String
     Public Property Summary As String
@@ -26,11 +31,16 @@ Public Class WeatherForecaster
 
     Private Function CreateForecast(i As Integer) As WeatherForecast
         Dim rng = New Random()
+
+        Dim day = Date.Today.AddDays(i).DayOfWeek.ToString()
+        Dim temp = rng.Next(WeatherSim.MinTemp, WeatherSim.MaxTemp)
+        Dim summary = Summaries(rng.Next(Summaries.Length))
+
         Return New WeatherForecast With {
-                    .Day = Date.Today.AddDays(i).DayOfWeek.ToString(),
-                    .TemperatureC = rng.Next(0, 100),
-                    .Summary = Summaries(rng.Next(Summaries.Length))
-                }
+            .Day = day,
+            .TemperatureC = temp,
+            .Summary = summary
+        }
     End Function
 
 
