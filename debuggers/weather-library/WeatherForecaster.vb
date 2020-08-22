@@ -1,6 +1,6 @@
 Class WeatherSim
-    Public Shared ReadOnly Property MaxTemp As Integer = 100
-    Public Shared ReadOnly Property MinTemp As Integer = 0
+    Public Shared Property MaxTemp As Integer = 100
+    Public Shared Property MinTemp As Integer = 0
 End Class
 
 Public Class WeatherForecast
