@@ -5,5 +5,5 @@ bin/
 .ionide/
 .vscode/
 .vs/
-*.csproj.user
+*.??proj.user
 node_modules/
